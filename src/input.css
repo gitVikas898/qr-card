@@ -1,2 +1,17 @@
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Outline';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('https://fonts.google.com/specimen/Outfit');
+    }
+  }
+  @layer base {
+    html {
+      font-family: "Outline", system-ui, sans-serif;
+    }
+  }
